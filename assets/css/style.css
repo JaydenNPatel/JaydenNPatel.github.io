@@ -14,7 +14,24 @@
   border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
 }
+.link-list {
+  list-style: square; /* use square bullets */
+  padding: 10px; /* add some padding */
+}
 
+.link-list li {
+  margin-bottom: 10px; /* add some space between list items */
+}
+
+.link-list a {
+  color: #337ab7; /* blue color */
+  text-decoration: none; /* remove underline */
+}
+
+.link-list a:hover {
+  color: #23527c; /* darker blue color on hover */
+  text-decoration: underline; /* add underline on hover */
+}
 .profile-pic img {
   width: auto;
   height: auto;
