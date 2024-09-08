@@ -326,7 +326,8 @@ h3 {
 }
 
 #intro.section .container {
-  color: white;
+  color: black; /* Adjust text color to be readable */
+  background: transparent; /* Ensure background is transparent */
   font-weight: 200;
   left: 0;
   position: absolute;
