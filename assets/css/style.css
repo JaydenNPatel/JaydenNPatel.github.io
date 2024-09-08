@@ -321,7 +321,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: beige; /* Changed from #a7ffeb to beige */
   position: relative;
 }
 
