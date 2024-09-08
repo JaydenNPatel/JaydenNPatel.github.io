@@ -14,11 +14,7 @@
   border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
 }
-body {
-  color: #333;
-  background-color: beige; /* Changed from teal to beige */
-  font-size: 18px;
-}
+
 .profile-pic img {
   width: auto;
   height: auto;
@@ -129,7 +125,7 @@ body {
 
 body {
   color: #333;
-  background-color: teal;
+  background-color: beige; /* Changed from teal to beige */
   font-size: 18px;
 }
 
