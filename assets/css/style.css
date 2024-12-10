@@ -142,7 +142,7 @@
 
 body {
   color: #333;
-  background-color: #FFEFD5; /* Changed from teal to beige */
+  border: 6px solid #a9a9a9;
   font-size: 18px;
 }
 
@@ -338,7 +338,7 @@ h3 {
 } */
 
 #intro.section {
-  background: beige; /* Changed from #a7ffeb to beige */
+  border: 6px solid #a9a9a9;
   position: relative;
 }
 
