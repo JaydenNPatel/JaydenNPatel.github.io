@@ -1,4 +1,4 @@
-profile-pic {
+.profile-pic {
   position: relative;
   max-width:130px;
   max-height:130px;
@@ -24,12 +24,12 @@ profile-pic {
 }
 
 .link-list a {
-  color: #b0c4de; /* Steel blue */
+  color: #337ab7; /* blue color */
   text-decoration: none; /* remove underline */
 }
 
 .link-list a:hover {
-  color: #87ceeb; /* Light steel blue */
+  color: #23527c; /* darker blue color on hover */
   text-decoration: underline; /* add underline on hover */
 }
 .profile-pic img {
@@ -68,8 +68,7 @@ profile-pic {
 }
 
 .github {
-  color: #FFFFFF;
-  background-color: #444; /* Dark gray */
+  color: black;
 }
 
 .linkedin {
@@ -86,15 +85,15 @@ profile-pic {
 }
 
 .linkedin:hover {
-  background-color: #005983;
+  background-color: #0077b5;
 }
 
 .angellist:hover {
-  background-color: #666;
+  background-color: grey;
 }
 
 .github:hover {
-  background-color: #555;
+  background-color: black;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -102,14 +101,15 @@ profile-pic {
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #444; /* Dark gray */
-  color: #fff;
-  border: 2px solid #555;
+  background: #fff;
+  color: #000000;
+  border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 /* .readme:hover{
@@ -120,25 +120,29 @@ profile-pic {
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: #444; /* Dark gray */
-  color: #fff;
-  border: 2px solid #555;
+  background: none;
+  color: #000000;
+  border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
-.contactme:hover, .readme:hover {
-  background-color: #555;
-  color: #f0f0f0;
+.contactme:hover{
+  color: #FAFAD2;
+  background-color: white;
 }
+/* main body */
+
+/* body-color */
 
 body {
-  color: #f0f0f0; /* Light gray text */
-  background-color: #121212; /* Dark gray background */
+  color: #333;
+  background-color: #FFEFD5; /* Changed from teal to beige */
   font-size: 18px;
 }
 
@@ -154,26 +158,33 @@ body {
 } */
 
 a {
-  color: #b0c4de; /* Steel blue */
+  color: #FFE4B5;
 }
 
 /* main blockqoute */
+
+/* blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+} */
+
 blockquote {
-  border-left: 5px solid #3a3a3a; /* Medium gray border */
-  color: #a0a0a0;
+  border-left: 5px solid #795548;
+  color: #795548;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
   padding-left: 1.5rem;
 }
 
-
 blockquote * {
   font-size: inherit;
   line-height: inherit;
 }
-
-
 
 .text-center {
   text-align: center;
@@ -182,8 +193,9 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: #222; /* Dark gray */
-  color: #ccc;
+  background: white;
+  box-shadow: none;
+  height: 0;
 }
 
 /* nav {
@@ -224,12 +236,9 @@ dt {
   display: inline-block;
   margin-left: 0.5rem;
 }
-ul.side-nav.fixed a {
-  color: #bbb;
-}
-ul.side-nav.fixed a:hover {
-  background-color: #333;
-  color: #fff;
+
+ul.side-nav {
+  width: 190px;
 }
 
 ul.side-nav li {
@@ -361,8 +370,8 @@ h3 {
   border-bottom: 5px solid #24305e;
 }
 
-.teal {
-  background-color: #1e1e1e !important; /* Dark gray for headers */
+#intro.section .teal {
+  padding: 0 10px;
 }
 
 .overlay {
@@ -381,9 +390,7 @@ h3 {
 }
 
 .card {
-  background-color: #242424;
-  color: #f0f0f0;
-  border: 1px solid #3a3a3a;
+  margin-bottom: 60px;
 }
 
 .card .role {
@@ -425,8 +432,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.card-action {
-  background-color: #333;
+#experience .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
 }
 
 #experience .card .col.s12.m2 a {
@@ -442,8 +450,8 @@ h3 {
   color: #666;
 }
 
-.card ul li {
-  color: #ccc;
+.card ul {
+  margin-bottom: 0;
 }
 
 .card ul li {
