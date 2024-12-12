@@ -303,6 +303,7 @@ li.logo span {
 }
 
 .brand-logo h1 {
+  background-color: #d3d3d3;
   font-size: inherit;
   line-height: inherit;
   margin: inherit;
@@ -713,5 +714,5 @@ small {
     padding: 20px;          /* Optional: Add some padding for better spacing */
 }
 .logo {
-  background-color: #f0f0f0;
+  background-color: #d3d3d3;
 }
