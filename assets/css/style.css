@@ -712,7 +712,4 @@ small {
     color: white;            /* Set text color to white */
     padding: 20px;          /* Optional: Add some padding for better spacing */
 }
-.side-nav .bold > a.teal-text {
-  background-color: #f0f0f0;
-  color: #333;
-}
+
