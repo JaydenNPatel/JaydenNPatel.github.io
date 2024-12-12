@@ -618,7 +618,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #FAFAD2;
+    color: black;
     height: 56px;
     line-height: 56px;
   }
